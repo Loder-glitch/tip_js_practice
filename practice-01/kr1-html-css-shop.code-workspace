@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../kr1-html-css-shop"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tip_js_practice"
+	}
+}
