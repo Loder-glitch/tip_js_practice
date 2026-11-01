@@ -1,0 +1,19 @@
+{
+  "name": "tip-js-practice-05",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node api/server.mjs",
+    "client": "node src/main.js",
+    "example:order": "node examples/event-loop.js",
+    "example:order:extension": "node examples/event-loop-extension.js",
+    "example:fetch": "node examples/fetch-basics.js",
+    "example:parallel": "node examples/parallel-loading.js",
+    "check:api": "node checks/api-server.checks.js",
+    "check:client": "node checks/api-client.checks.js",
+    "check:integration": "node checks/integration.checks.js",
+    "check:student": "node checks/student.checks.js",
+    "test": "npm run check:api && npm run check:client && npm run check:integration && npm run check:student"
+  }
+}
